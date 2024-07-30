@@ -1,4 +1,6 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from 'src/components/posts'
+import { Navbar } from "@/components/nav";
+
 
 export default function Page() {
   return (
@@ -14,7 +16,6 @@ export default function Page() {
         mode, which eases long coding sessions by reducing eye strain.`}
       </p>
       <div className="my-8">
-        <BlogPosts />
       </div>
     </section>
   )
