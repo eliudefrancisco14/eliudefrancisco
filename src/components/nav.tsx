@@ -1,4 +1,3 @@
-
 // @NOTE: in case you are using Next.js
 "use client";
 
@@ -28,12 +27,20 @@ export function Navbar({
       title: "home",
     },
     {
-      path: "/blog",
-      title: "blog",
-    },
-    {
       path: "/projectos",
       title: "projectos",
+    },
+    {
+      path: "/tecnologias",
+      title: "tecnologias",
+    },
+    // {
+    //   path: "/blog",
+    //   title: "blog",
+    // },
+    {
+      path: "/talktome",
+      title: "talk to me",
     },
   ];
 

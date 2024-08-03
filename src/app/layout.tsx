@@ -7,10 +7,11 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "../components/footer";
 import { baseUrl } from "./sitemap";
+import BlackHoleBackground from "@/components/BlackHoleBackground";
 
 const meta = {
   title: "Eliude Francisco",
-  description: ""
+  description: "",
 };
 
 export const metadata: Metadata = {
@@ -75,9 +76,10 @@ export default function RootLayout({
       )}
     >
       <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
+        <BlackHoleBackground />
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
-          {children}
+          <div className="mt-10">{children}</div>
           <Footer />
           <Analytics />
           <SpeedInsights />
