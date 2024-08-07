@@ -27,11 +27,15 @@ export function Navbar({
       title: "home",
     },
     {
-      path: "/projectos",
+      path: "/aboutme",
+      title: "Sobre mim",
+    },
+    {
+      path: "/projects",
       title: "projectos",
     },
     {
-      path: "/tecnologias",
+      path: "/tecnologies",
       title: "tecnologias",
     },
     // {
